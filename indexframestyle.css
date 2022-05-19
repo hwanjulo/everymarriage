@@ -1,0 +1,37 @@
+#content-grid{
+  display:grid;
+  grid-template-columns: 393px 394px 393px;
+}
+
+#content-grid > div {
+  height:350px;
+}
+
+#content-grid > div > a {
+  display:block;
+  color : black;
+  text-decoration: none;
+  padding-top: 165px;
+  padding-bottom: 165px;
+}
+
+#content-grid > div > a:hover{
+  background-color: #F9f9f9;
+}
+
+@media(max-width:1000px){
+  #content-grid{
+    display:grid;
+    grid-template-columns: 100%;
+  }
+
+  #content-grid > div {
+    height:100px;
+  }
+
+  #content-grid > div > a {
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+
+}
